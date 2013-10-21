@@ -1,0 +1,105 @@
+* {
+	border-radius: 0px;
+}
+
+
+* {
+text-shadow: none !important;
+box-shadow: none !important;
+-moz-box-shadow: none !important;
+-webkit-box-shadow: none !important;
+}
+
+.type{
+	display: none;
+}
+
+*{
+	font-family: Helvetica;
+}
+
+#more{
+	background-color: #979797;
+}
+
+
+.ui-content .ui-listview-inset, .ui-panel-inner .ui-listview-inset {
+    margin: 0;
+}
+
+.ui-listview-inset .ui-li {
+    border-right-width: 0px;
+    border-left-width: 0px;
+}
+
+.ui-btn-inner {
+	/*border-color: rgba(99, 99, 99, 0.64);*/
+	border-width: 1px;
+}
+
+.ui-btn-up-c, .ui-btn-hover-c {
+background: #fff;
+}
+
+.ui-content{
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+}
+
+#searchForm{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+#singleDudaContent{
+	padding-left: 2em;
+	padding-right: 2em;
+	
+}
+
+a.sideBarBTN:hover{
+	background-color: #cfcfcf;
+}
+
+.ui-icon, .ui-icon-searchfield::after {
+	text-shadow: none;
+	border: none;
+	background-color: #000;
+}
+
+.ui-title{
+	color: #ffffff;
+	text-shadow: none;
+}
+
+.ui-bar-a{
+	background: #000;
+	border: 1px solid #333;
+}
+
+.ui-btn-up-a{
+	background: #000;
+	text-shadow: none;
+	color: #fff;
+	border: #434343;
+}
+
+
+.ui-btn-up-a:hover{
+	background: #000;
+	text-shadow: none;
+	color: #fff;
+	border: #434343;
+}
+
+.ui-body-c, .ui-overlay-c {
+	background: #ffffff;
+}
+
+.ui-page {
+    -webkit-backface-visibility: hidden;
+}
+.ui-corner-all{-webkit-border-radius:0 ;border-radius:0 ;}
+.ui-btn-corner-all{-webkit-border-radius:0 ;border-radius:0 ;}
